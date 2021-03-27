@@ -102,6 +102,11 @@
                     }
                 }
                 _%>
+                <dd>
+                    <div>
+                        <qr-code [value]= "/<%= entityUrl %> <%= entityInstance %>.id" [size]="150"></qr-code>
+                    </div>
+                </dd>
             </dl>
 
             <button type="submit"
